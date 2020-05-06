@@ -29,6 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
 body {
 	line-height: 1;
 }
@@ -2333,7 +2335,7 @@ input, select, textarea {
 			color: #555;
 			cursor: default;
 			display: inline-block;
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0 0;
 		}
 
 			.icon.major:before {
@@ -2642,6 +2644,7 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			vertical-align: middle;
 		}
 
 		table th {
@@ -2830,7 +2833,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/blur.jpg");
 			background-size: auto,							cover;
 		}
 
